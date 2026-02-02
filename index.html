@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Question importante 👀</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Est-ce que tu acceptes d'être ma copine ? 💖</h1>
+
+    <!-- Image / GIF en haut -->
+    <img
+      id="mainGif"
+      class="gif"
+      src="assets/gif1.gif"
+      alt="gif mignon"
+    />
+
+    <div class="buttons">
+      <button id="yesBtn" class="btn yes">Oui</button>
+      <button id="noBtn" class="btn no">Non</button>
+    </div>
+
+    <p id="hint" class="hint">Choisis bien 😇</p>
+  </main>
+
+  <!-- Overlay (animation quand elle clique oui) -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlayContent">
+      <h2>YEEEEES !! 🥳💞</h2>
+      <img class="gif" src="assets/gif2.gif" alt="gif celebration" />
+      <p>Je suis trop heureux 😭</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
